@@ -1,0 +1,17 @@
+ArduiParam project
+
+this library is create for set global variable during the runtime
+the syntax is designed for use this with dump-phone via bluetooth or GSM link
+
+Syntax command
+* For set variable use "Cmd=<val>."
+* For read variable use "Cmd?"
+* For exec action "Cmd."
+
+in ArduiParam 3 caracters are reserved :
+* Dot(.) 
+** Terminate write command or action command
+* Question Mark(?) 
+** Terminate read command
+* equal mark(=)
+** indicate the value of command
